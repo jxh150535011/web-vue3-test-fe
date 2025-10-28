@@ -1,0 +1,21 @@
+{
+  "name": "web-vue3-test-fe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "vue": "^3.5.22",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.5.14",
+    "@rsbuild/plugin-vue": "^1.1.2",
+    "typescript": "^5.9.3"
+  }
+}
