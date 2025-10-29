@@ -9,7 +9,7 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/home',
     name: 'Home',
-    component: () => import('@/pages/Home/index.vue'),
+    component: () => import('@/views/home/index.vue'),
     meta: {
       title: '首页'
     }
@@ -17,7 +17,7 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/demo',
     name: 'Demo',
-    component: () => import('@/pages/Demo/index.vue'),
+    component: () => import('@/views/demo/index.vue'),
     meta: {
       title: '演示页面'
     }
@@ -25,7 +25,7 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/about',
     name: 'About',
-    component: () => import('@/pages/About/index.vue'),
+    component: () => import('@/views/about/index.vue'),
     meta: {
       title: '关于我们'
     }
@@ -33,7 +33,7 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
-    component: () => import('@/pages/NotFound/index.vue'),
+    component: () => import('@/views/not-found/index.vue'),
     meta: {
       title: '页面未找到'
     }
